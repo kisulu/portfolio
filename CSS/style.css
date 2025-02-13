@@ -1,0 +1,85 @@
+ /* Reset default margin and padding */
+body, li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover, a:focus{
+  text-decoration: none;
+  outline: none;
+}
+
+/* Navigation Bar Styling */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin-left: 0;
+  /*background-color:#9B26FF;
+  /*background-color: rgba(8, 8, 8, 0.1);*/
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight:normal;
+  padding: 10px 15px;
+  transition: 0.3s ease;
+  border-radius: 25px;
+}
+.navbar ul li a:hover{
+  background-color: black; /* Gold background hover effect */
+  color:#45d0f3;           /* Gold foregraoung hover effect */
+  /*border-radius: 25px;*/
+}
+.logo img {
+  width: 100px;
+  height: 50px;
+  margin: 10px 20px;
+}
+.primary-nav ul {
+  display: flex;
+}
+.primary-nav ul li {
+  margin: 10px 20px;
+}
+
+/*setcion area*/
+.back_ground {
+  background: url(../Images/home-banner.png) no-repeat top center;
+  background-position: center;
+  background-size: cover;
+  min-height: 890px
+}
+
+/*footer styling*/
+.footer_area {
+  padding-top: 80px ;
+  padding-bottom: 80px ;
+  background-image: none ;
+  background-color: #fcf8ff;
+}
+.footer_panel, .container, .inner_container,.inner_container_2, .last_inner_container{
+  box-sizing:border-box;
+  /*display: block;*/
+  line-height: 27px;
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+.footer_panel {
+  background-color: rgb(2, 16, 23);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.container{
+  display:flex;
+  justify-content: center;
+}
+footer div a img{
+  width: 100px;
+  height: 50px;
+  margin: 10px 20px;
+}
